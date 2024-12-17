@@ -29,6 +29,9 @@ app.use(
       "https://manarah-al-abtkar.vercel.app",
       "http://89.116.51.14",
       "http://89.116.51.14:80",
+      "http://manarah-alabtkar.com",
+      "https://manarah-alabtkar.com"
+
     ],
     credentials: true,
     methods: ["GET", "POST", "PUT", "DELETE"],
