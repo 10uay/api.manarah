@@ -2,6 +2,7 @@ import Lang from "../models/lang.model.js";
 
 export const getLang = async (req, res) => {
   try {
+    // console.log(req.params);
     const { lng } = req.params;
     const translation = await Lang.findOne({ _id: "670d7bacd477fb076b5bc551" });
     if (translation && translation[lng]) {
