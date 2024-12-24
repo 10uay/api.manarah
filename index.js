@@ -21,19 +21,8 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173",
-<<<<<<< HEAD
       // "http://manarah-alabtkar.com",
       "https://manarah-alabtkar.com",
-=======
-      "https://m.almajdacademic.com",
-      "https://manarah-al-abtkat.vercel.app",
-      "https://manarah-al-abtkar.vercel.app",
-      "http://89.116.51.14",
-      "http://89.116.51.14:80",
-      "http://manarah-alabtkar.com",
-      "https://manarah-alabtkar.com"
-
->>>>>>> 00651f0296ca22e886c9a704a222da52360e7702
     ],
     credentials: true,
     methods: ["GET", "POST", "PUT", "DELETE"],
